@@ -130,9 +130,19 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	/* Default styling */
 	p {
 		margin: 0 0 2em 0;
+		font-size: 16px; /* Default font size */
 	}
+
+	/* Media query for phone devices */
+	@media only screen and (max-width: 600px) {
+		p {
+			font-size: 15px; /* Smaller font size for phones */
+		}
+	}
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
@@ -203,6 +213,16 @@ input, select, textarea {
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
+	}
+
+	/* Media query for phone devices */
+	@media only screen and (max-width: 600px) {
+		blockquote {
+			border-left: solid 4px #efefef;
+			font-style: italic;
+			margin: 0 0 2em 0;
+			padding: 0.25em 0 0.25em 0.75em;
+		}
 	}
 
 	code {
@@ -2122,6 +2142,18 @@ input, select, textarea {
 			.image.left img, .image.right img {
 				width: 100%;
 			}
+
+		/* Media query for phone devices */
+		@media only screen and (max-width: 600px) {
+			.image.left, .image.right {
+				max-width: 30%;
+			}
+	
+				.image.left img, .image.right img {
+					width: 100%;
+				}
+	
+		}
 
 		.image.fit {
 			display: block;
