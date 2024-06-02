@@ -1672,7 +1672,28 @@ input, select, textarea {
 				}
 
 				.row > .col-12-xsmall {
-					width: 100%;
+					width: 50%;
+				}
+
+				.row > .col-12-xsmall h3 {
+					font-size: 70%;
+				}
+
+				.row > .col-12-xsmall p {
+					font-size: 0%;
+					margin-top: -1em;
+				}
+
+				.row > .col-12-xsmall .work-item .image {
+					margin: 0 0 0em 0;
+				}
+
+				.row > .col-12-xsmall .image.fit {
+					margin: 0 0 1em 0;
+				}
+
+				.row > .col-12-xsmall image {
+					margin-bottom: -1em;
 				}
 
 				.row > .off-12-xsmall {
