@@ -133,7 +133,7 @@ input, select, textarea {
 	/* Default styling */
 	p {
 		margin: 0 0 2em 0;
-		font-size: 16px; /* Default font size */
+		font-size: 18px; /* Default font size */
 	}
 
 	/* Media query for phone devices */
@@ -229,6 +229,16 @@ input, select, textarea {
 			font-size: 13px;
 			line-height: 1.85;
 		}
+
+		/* Target h4 inside blockquote */
+		blockquote h4 {
+			font-size: 14px;
+		}
+
+		blockquote .techicon {
+            width: 15px;
+            height: 15px;
+        }
 	}
 
 	code {
@@ -2661,6 +2671,24 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+
+	@media screen and (max-width: 480px) {
+
+		.work-item {
+			margin: 0 0 1.75em 0;
+		}
+	
+			.work-item .image {
+				margin: 0 0 1em 0;
+			}
+
+			.work-item h3 {
+				font-size: 1em;
+				margin: 0 0 0.2em 0;
+			}
+
+	}
+
 
 /* Header */
 
